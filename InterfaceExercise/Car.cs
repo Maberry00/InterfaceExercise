@@ -17,8 +17,8 @@ namespace InterfaceExercise
         public string Employees { get ; set ; }
         public string Logo { get ; set ; }
         public object Model { get  ; set  ; }
-        object IVehicle.Year { get  ; set  ; }
-        object IVehicle.Make { get  ; set  ; }
+        object IVehicle.Year { get; set; }
+        object IVehicle.Make { get; set; }
 
         public void Drive() 
         {

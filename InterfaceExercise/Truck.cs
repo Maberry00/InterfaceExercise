@@ -22,6 +22,7 @@ namespace InterfaceExercise
 
         public void Drive()
         {
+            Console.WriteLine($"Driving in my {GetType().Name}");
         }
     }
 }

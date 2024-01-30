@@ -19,7 +19,7 @@ namespace InterfaceExercise
         void Drive();
         void DriveDefault() 
         {
-            System.Console.WriteLine();
+            Console.WriteLine("Default drive method inside interface");
         }
     }
 }
