@@ -16,9 +16,9 @@ namespace InterfaceExercise
         public int NumberOfDoors { get; set; }
         public string Employees { get; set; }
         public string Logo { get; set; }
-        public object Year { get ; set ; }
-        public object Make { get ; set ; }
-        public object Model { get ; set ; }
+        public int Year { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
 
         public void Drive()
         {

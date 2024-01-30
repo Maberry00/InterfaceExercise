@@ -12,9 +12,9 @@ namespace InterfaceExercise
         public string Brand { get; set; }
         public int NumberOfWheels { get; set; }
         public int NumberOfDoors { get; set; }
-        object Year { get; set; }
-        object Make { get; set; }
-        object Model { get; set; }
+        public int Year { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
 
         void Drive();
         void DriveDefault() 

@@ -16,13 +16,13 @@ namespace InterfaceExercise
         public int NumberOfDoors { get ; set ; }
         public string Employees { get ; set ; }
         public string Logo { get ; set ; }
-        public object Year { get ; set ; }
-        public object Make { get ; set ; }
-        object IVehicle.Model { get ; set ; }
+        public int Year { get; set; }
+        public string Make { get; set; }
 
         public void Drive()
         {
             Console.WriteLine($"Driving in my {GetType().Name}");
         }
+        
     }
 }
